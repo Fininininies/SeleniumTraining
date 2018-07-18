@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Udemy Test Suites" parallel="false">
+
+  <test name="Smoke Test: Home Page">
+    <classes>
+      <class name="com.udemy.smoketests.ATagsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Smoke Test: Login Tests">
+    <classes>
+      <class name="com.udemy.smoketests.LoginPresentTestNG"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
